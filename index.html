@@ -1,0 +1,68 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+	<title>Lista de Tareas</title>
+</head>
+<body background="imagenes/fondo-gris.png">
+    <br>
+	<div class="container-fluid">
+    <h1 class="hola" style="color: white;">Lista de Tareas</h1>
+
+	
+	
+	<div class="principal">
+ 
+		<div class="aaa">
+	
+			<form class="formulario" action="">
+				<input type="text" id="tareaInput" placeholder="Escribir Tarea:">
+				<input type="button" class="btn btn-outline-dark" id="btn-agregar" value="Agregar ">
+
+				<hr/>
+			<div>
+				<h6 id="contar">Total tareas: <span id="total">0</span></h6>
+				<hr />
+				<h6>Tareas finalizadas: <span id="totaal">0</span></h6>
+				<hr />
+				<h6>Tareas faltantes: <span id="totaaal">0</span></h6>
+			</div>
+
+			</form>
+
+		</div>
+	</div>
+	<center>
+
+		
+<div class="resul">
+	<div class="tareas">
+		<div class="aaa">
+			<ul class="lista" id="lista">
+				<li>Agrega una tarea!</li>
+				
+			</ul>
+		</div>
+	</div>
+</div>
+
+
+<div class="fofo">
+<input type="text" name="" id="apodo" placeholder="Nombre:">
+<br>
+<label >Bienvenido:</label>
+	<span id="pApodo"></span><br><br>
+<button type="button" class="btn btn-outline-dark" id="btn-agregar" onclick="guardar()" >Guardar</button>
+<button type="button" class="btn btn-outline-dark" id="btn-agregar"  onclick="mostrar()">Mostrar</button>	
+
+</div>
+</div>
+</center>
+	<script src="myscript.js"></script>
+</body>
+</html>

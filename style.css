@@ -1,0 +1,93 @@
+
+
+
+.hola{
+    color: black;
+    text-align: center;
+    
+}
+
+
+.principal {
+	background:  linear-gradient(#00000085,#f0efef);
+	border-top: 20px solid #3b3b3b;
+	color: #fff;
+	padding: 50px 0;
+	width: 100%;
+    border-radius: 1000px;
+   text-align: center;
+   margin-top: 10px;
+}
+
+.resul {
+	background-color: #7a7a7a;
+	color: #fff;
+	padding: 50px 0;
+	width: 1300px;
+   text-align: center;
+   margin-top: 10px;
+   border-radius: 25px;
+}
+
+.principal .formulario {
+	color: #212121;
+	text-align: center;
+}
+
+.principal .formulario input[type=text] {
+	margin-bottom: 20px;
+	padding: 10px;
+	width: 100%;
+}
+
+.principal .formulario input[type=text].error {
+	border: 5px solid #000000;
+	color: rgb(0, 0, 0);
+}
+
+.principal .formulario  {
+	background: none;
+	border: 1px solid #000000;
+	color: #fff;
+	display: inline-block;
+	font-size: 16px;
+	padding: 15px;
+}
+
+.principal .formulario .boton:hover {
+	border: 1px solid #fff;
+}
+
+.tareas .lista {
+	list-style: none;
+}
+
+.tareas .lista li {
+	border-bottom: 1px solid #B6B6B6;
+}
+
+.tareas .lista li a {
+	color: #FFFFFF;
+	display: block;
+	padding: 20px 0;
+	text-decoration: none;
+}
+
+.tareas .lista li a:hover {
+	text-decoration: line-through;
+}
+
+#apodo{
+	border-radius: 100px;
+}
+
+.fofo{
+	background:  linear-gradient(#00000085,#f0efef);
+	border-top: 20px solid #3b3b3b;
+	color: #fff;
+	padding: 50px 0;
+	width: 100%;
+    border-radius: 1000px;
+   text-align: center;
+   margin-top: 10px;
+}
